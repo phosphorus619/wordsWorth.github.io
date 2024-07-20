@@ -1,53 +1,52 @@
+@charset "UTF-8";
 .post-copyright {
-  margin: 2em 0 0;
-  padding: 0.5em 1em;
-  border-left: 3px solid #FF1700;
-  background-color: #F9F9F9;
-  font-size: 0.93rem;
-  line-height: 1.6em;
-  word-break: break-all;
+  margin: 2em 0;
+  padding: 1em;
+  border-left: 4px solid #234e7d; /* 改成更现代的颜色 */
+  background-color: #f8f9fa; /* 更浅的背景色 */
+  font-size: 0.95rem; /* 稍微增大字体 */
+  line-height: 1.5em; /* 适当调整行高 */
+  border-radius: 8px; /* 圆角效果 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 增加阴影效果 */
 }
 
 .post-copyright p {
   margin: 0;
+  color: #333; /* 增加文字颜色对比度 */
 }
 
 .post-copyright span {
   display: inline-block;
-  width: 5.2em;
-  color: #b5b5b5;
-  font-weight: bold;
+  width: auto; /* 自动调整宽度 */
+  color: #666; /* 使用更现代的灰色 */
+  font-weight: 600; /* 更加突出 */
 }
 
 .post-copyright .raw {
-  margin-left: 1em;
-  width: 5em;
+  margin-left: 0.5em; /* 减少间距以简化样式 */
 }
 
 .post-copyright a {
-  color: #808080;
-  border-bottom: 0;
+  color: #007bff; /* 现代蓝色链接 */
+  text-decoration: none; /* 去掉下划线 */
+  transition: color 0.3s; /* 平滑过渡效果 */
 }
 
 .post-copyright a:hover {
-  color: #a3d2a3;
-  text-decoration: underline;
+  color: #0056b3; /* 悬停时更深的蓝色 */
+  text-decoration: underline; /* 添加下划线 */
 }
 
-.post-copyright :hover .fa-clipboard {
-  color: #000;
-}
-
-.post-copyright .post-url:hover {
-  font-weight: normal;
+.post-copyright .fa-clipboard {
+  transition: color 0.3s; /* 平滑过渡效果 */
 }
 
 .post-copyright .copy-path {
-  margin-left: 1em;
-  width: 1em;
+  margin-left: 0.5em; /* 减少间距 */
+  cursor: pointer;
+  color: #007bff; /* 现代蓝色 */
 }
 
 .post-copyright .copy-path:hover {
-  color: #808080;
-  cursor: pointer;
+  color: #0056b3; /* 悬停时更深的蓝色 */
 }
